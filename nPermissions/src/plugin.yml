@@ -1,0 +1,4 @@
+name: "Hydrogen"
+version: "${project.version}"
+author: "AMGeneral and Emilio"
+main: "us.centile.permissions.nPermissions"

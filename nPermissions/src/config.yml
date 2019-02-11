@@ -1,0 +1,15 @@
+DATABASE:
+  MONGO:
+    HOST: "127.0.0.1"
+    PORT: 27017
+    AUTHENTICATION:
+      ENABLED: FALSE
+      DATABASE: "permissions"
+      USER: "user"
+      PASSWORD: "password"
+  REDIS:
+    HOST: "127.0.0.1"
+    PORT: 6379
+    AUTHENTICATION:
+      ENABLED: FALSE
+      PASSWORD: "password"

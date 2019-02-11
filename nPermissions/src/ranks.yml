@@ -1,0 +1,354 @@
+DEFAULT:
+  NAME: "Default"
+  PREFIX: "&f"
+  DEFAULT: TRUE
+  PERMISSIONS:
+    - chestcommands.open.ranks.yml
+    - deluxemenus.open
+    - crazyauctions.access
+    - crazyauctions.sell.10
+    - crazyauctions.sell
+    - pkm.kill.reward
+    - nte.noob
+    - -minecraft:me
+    - -bukkit:me
+    - -bukkit:?
+    - -essentials.sell
+    - -essentials.sellhand
+    - -essentials.sell.hand
+    - -essentials.mail
+    - -essentials.seen
+    - -essentials.back
+    - essentials.back
+    - essentials.balance
+    - essentials.balance.others
+    - backpack.use
+    - backpack.KeepOnDeath
+    - treasurechest.access.treasure
+    - essentials.balancetop
+    - essentials.build
+    - essentials.compass
+    - essentials.delhome
+    - essentials.geoip.show
+    - essentials.getpos
+    - essentials.help
+    - essentials.helpop
+    - essentials.home.others
+    - essentials.ignore
+    - essentials.info
+    - essentials.itemdb
+    - essentials.kit
+    - essentials.kits.bonus
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.motd
+    - essentials.msg
+    - essentials.near
+    - essentials.pay
+    - essentials.ping
+    - essentials.protect
+    - essentials.r
+    - essentials.realname
+    - essentials.sell
+    - essentials.sethome.multiple.Default
+    - essentials.setxmpp
+    - essentials.signs.break.protection
+    - essentials.signs.break.trade
+    - essentials.signs.create.protection
+    - essentials.signs.create.trade
+    - essentials.signs.use.balance
+    - essentials.signs.use.buy
+    - essentials.signs.use.disposal
+    - essentials.signs.use.enchant
+    - essentials.signs.use.free
+    - essentials.signs.use.heal
+    - essentials.signs.use.info
+    - essentials.signs.use.kit
+    - essentials.signs.use.repair
+    - essentials.signs.use.sell
+    - essentials.signs.use.trade
+    - essentials.signs.use.warp
+    - essentials.spawn
+    - essentials.spawner
+    - essentials.suicide
+    - essentials.time
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - essentials.tps
+    - essentials.warp
+    - essentials.kit
+    - essentials.kits
+    - essentials.warp.*
+    - essentials.warp.list
+    - essentials.warps
+    - essentials.warps.*
+    - essentials.warps.list
+    - essentialsa.itemdb
+    - playervaults.amount.2
+    - playervaults.signs.bypass
+    - playervaults.signs.use
+    - playervaults.size.6
+    - skinsrestorer.playercmds
+    - essentials.kits.noob
+    - headdb.allow.buy
+    - headdb.category.*
+    - headdb.open
+    - playtime.check
+    - custom.help.use
+    - dailyspin.open
+    - auction.limit.5
+    - shopguiplus.shop
+    - shopguiplus.shops
+    - shopguiplus.shops.*
+    - shopguiplus.shops.blocks
+    - shopguiplus.shops.farming
+    - shopguiplus.shops.food
+    - shopguiplus.shops.minerals
+    - shopguiplus.shops.misc
+    - shopguiplus.shops.potions
+    - shopguiplus.shops.tools
+    - chestcommands.open.donate.yml
+    - chestcommands.open.kits.yml
+    - chestcommands.open.drewards.yml
+    - chestcommands.open.warps.yml
+    - dr.claim
+    - bk.join
+    - bk.book
+    - custom.help.use
+    - kitspreview
+    - trading.trade
+    - deluxemenus.*
+    - Friends.ExtraFriends
+    - Friends.Use
+    - Friends.*
+    - -nte.noob
+    - nte.newbie
+    - essentials.kits.newbie
+HELPER:
+  NAME: "Helper"
+  PREFIX: "&8(&6Helper&8) &6"
+  INHERITANCE:
+    - DEFAULT
+  PERMISSIONS:
+    - nocheatplus.notify
+    - nametag.group.helper
+    - essentials.god
+    - chatcontrol.commands.clear
+    - chatcontrol.commands.mute
+    - chatcontrol.bypass
+    - chatcontrol.notify.ad
+    - essentials.afk
+    - essentials.back
+    - essentials.afk.auto
+    - essentials.chat.ignoreexempt
+    - essentials.feed
+    - essentials.fly
+    - essentials.godmode
+    - essentials.helpop.receive
+    - essentials.kick
+    - essentials.kick.notify
+    - essentials.mute
+    - essentials.mute.notify
+    - essentials.socialspy
+    - essentials.tp
+    - essentials.tphere
+    - essentials.tpohere
+    - essentials.tpo
+    - essentials.enderchest
+    - essentials.enderchest.others
+    - essentials.vanish
+    - essentials.socialspy
+    - nte.helper
+MOD:
+  NAME: "Mod"
+  PREFIX: "&8(&dMod&8) &d"
+  INHERITANCE:
+    - DEFAULT
+    - HELPER
+  PERMISSIONS:
+    - nocheatplus.notify
+    - nametag.group.mod
+    - essentials.speed
+    - essentials.warps.*
+    - essentials.god
+    - worldedit.*
+    - chatcontrol.bypass.mute
+    - essentials.ban
+    - essentials.fly
+    - essentials.invsee
+    - essentials.mute.offline
+    - essentials.seen.banreason
+    - essentials.tp
+    - plotme.admin.bypassdeny
+    - bukkit.command.gamemode
+    - bukkit.command.kick
+    - -essentials.spawner.enderdragon
+    - essentials.afk.kickexempt
+    - essentials.ban
+    - essentials.ban.notify
+    - essentials.banip
+    - essentials.broadcast
+    - essentials.chat.url
+    - essentials.chat.magic
+    - essentials.clearinventory
+    - essentials.delwarp
+    - essentials.eco.loan
+    - essentials.exp.others
+    - essentials.ext
+    - essentials.fly
+    - essentials.getpos
+    - essentials.getpos.others
+    - essentials.helpop.recieve
+    - essentials.home.others
+    - essentials.invsee
+    - essentials.jails
+    - essentials.jump
+    - essentials.kick
+    - essentials.kick.notify
+    - essentials.kill
+    - essentials.kit.*
+    - essentials.msg.magic
+    - essentials.mute
+    - essentials.nick.color
+    - essentials.nick.others
+    - essentials.realname
+    - essentials.seen.banreason
+    - essentials.seen.extra
+    - essentials.setwarp
+    - essentials.signs.create.*
+    - essentials.signs.break.*
+    - essentials.spawner
+    - essentials.spawner.*
+    - essentials.thunder
+    - essentials.time
+    - essentials.time.set
+    - essentials.protect.alerts
+    - essentials.protect.admin
+    - essentials.protect.ownerinfo
+    - essentials.ptime
+    - essentials.ptime.others
+    - essentials.togglejail
+    - essentials.top
+    - essentials.tp
+    - essentials.tp.others
+    - essentials.tphere
+    - essentials.tppos
+    - essentials.tptoggle
+    - essentials.vanish
+    - essentials.warp.*
+    - essentials.weather
+    - essentials.whois
+    - essentials.workbench
+    - essentials.world
+    - essentials.world.*
+    - nte.mod
+SRMOD:
+  NAME: "SrMod"
+  PREFIX: "&8(&d&oSr Mod&8) &d"
+  INHERITANCE:
+    - DEFAULT
+    - MOD
+    - HELPER
+  PERMISSIONS:
+    - worldedit.*
+    - nocheatplus.notify
+    - nte.srmod
+    - essentials.invsee
+    - essentials.*
+    - essentials.ban
+    - essentials.feed
+    - essentials.fly
+    - essentials.gamemode
+    - essentials.god
+    - essentials.heal
+    - essentials.invsee.modify
+    - essentials.spawn
+    - essentials.tp
+    - playervaults.admin
+
+ADMIN:
+  NAME: "Admin"
+  PREFIX: "&8(&cAdmin&8) &c"
+  INHERITANCE:
+    - DEFAULT
+    - SRMOD
+    - MOD
+    - HELPER
+  PERMISSIONS:
+    - playervaults.*
+    - worldedit.*
+    - permissions.*
+    - essentials.*
+    - nte.admin
+SRADMIN:
+  NAME: "Sr Admin"
+  PREFIX: "&8(&c&oSr Admin&8) &c"
+  INHERITANCE:
+    - DEFAULT
+    - ADMIN
+    - SRMOD
+    - MOD
+    - HELPER
+  PERMISSIONS:
+    - pte.sradmin
+    - -nte.padmin
+    - -nte.owner
+    - -nte.manager
+    - '*'
+PADMIN:
+  NAME: "PlatAdmin"
+  PREFIX: "&8(&c&oPlat Admin&8) &c"
+  INHERITANCE:
+    - DEFAULT
+    - ADMIN
+    - SRMOD
+    - MOD
+    - HELPER
+    - SRADMIN
+  PERMISSIONS:
+    - nte.padmin
+    - -nte.owner
+    - -nte.manager
+    - '*'
+DEVELOPER:
+  NAME: "Developer"
+  PREFIX: "&7[&bDeveloper&7] &b"
+  INHERITANCE:
+    - DEFAULT
+    - SRADMIN
+    - ADMIN
+    - SRMOD
+    - MOD
+    - HELPER
+  PERMISSIONS:
+    - queue.priority.0
+MANAGER:
+  NAME: "Manager"
+  PREFIX: "&8(&4&oManager&8) &4"
+  INHERITANCE:
+    - DEFAULT
+    - SRADMIN
+    - ADMIN
+    - SRMOD
+    - MOD
+    - HELPER
+  PERMISSIONS:
+    - nte.manager
+    - -nte.owner
+    - '*'
+OWNER:
+  NAME: "Owner"
+  PREFIX: "&8(&4&oOwner&8) &4"
+  INHERITANCE:
+    - DEFAULT
+    - DEVELOPER
+    - SENIORADMIN
+    - ADMIN
+    - SENIORMOD
+    - MODERATOR
+    - HELPER
+  PERMISSIONS:
+    - '*'
+    - nte.owner
